@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.SizedBox{
+    height: 2.4%;
+}
+#Line{
+    border: 1px solid;
+    color: rgba(255, 255, 255, 0.247);
+}
+.FirstDiv {
+    height: 70px;
+    width: 100%;
+    background-color: #2a2727;
+}
+
+#MenuBtn {
+    color: #fff;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 1%;
+    position: absolute;
+    float: left;
+    cursor: pointer;
+}
+
+#Logo {
+    font-size: 34px;
+    color: red;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 5.9%;
+    float: left;
+    cursor: pointer;
+}
+.YoutubeText{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    float: left;
+    margin-top: 25px;
+    margin-left: 9%;
+    cursor: pointer;
+}
+
+#SearchDiv {
+    height: 40px;
+    width: 34%;
+    background-color: #121212;
+    margin-top: 17px;
+    margin-left: 26%;
+    position: absolute;
+    float: left;
+    
+}
+
+.SearchText {
+   color: white;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    float: left;
+    outline: none;
+    padding-left: 5%;
+    
+}
+
+.SearchIconDiv {
+    height: 40px;
+    width: 50px;
+    margin-top: 17px;
+    margin-left: 60%;
+    float: left;
+    position: absolute;
+    background-color: #313131;
+    color: #fff;
+    cursor: pointer;
+}
+#SearchIcon{
+    display:flex;
+    margin-top: 23%;
+    margin-bottom: 23%; 
+    justify-content:center;
+}
+
+#MicIcon {
+    margin-left: 65%;
+    margin-top: 28px;
+    font-size: 18px;
+    color: white;
+    float: left;
+    position: absolute;
+    cursor: pointer;
+}
+
+#VideoCam {
+    font-size: 22px;
+    color: white;
+    margin-left: 85%;
+    margin-top: 22px;
+    float: left;
+    position: absolute;
+    cursor: pointer;
+}
+
+#AppsIcon{
+    color: white;
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    margin-left: 88%;
+    margin-top: 22px;
+    float: left;
+    position: absolute;
+    cursor: pointer;
+}
+#BellIcon{
+    margin-left: 91%;
+    color: white;
+    position: absolute;
+    float: left;
+    margin-top: 1.6%;
+    cursor: pointer;
+}
+
+.ProPic{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    float: left;
+    margin-top: 19px;
+    margin-left: 94%;
+    position: absolute;
+    cursor: pointer;
+}
+
+.LeftSideDiv{
+    
+    height: 100vh;
+    width: 6%;
+    background-color: #2a2727;
+    float: left;
+    color: white;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+
+}
+#LeftIcon{
+    color: white;
+    font-size: 26px;
+    margin-left: 1%;
+    cursor: pointer;
+    
+}
+#LeftTitle{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 0.7rem;
+    white-space: nowrap;
+    font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#Line{
+    size: 1px;
+}
+.SecondDiv{
+    height: 1180px;
+    width: 92.9vw;
+    position: absolute;
+    margin-left: 6%;
+    background-color: #181818;
+}
+
+.BodyDiv{
+    height: 900px;
+    width: 94%;
+    background-color: #181818;
+    float: left;
+}
+#Buttons{
+    padding: 10px 30px;
+    border-radius: 30px 30px;
+    font-family: Roboto, Arial, sans-serif;
+    border: none;
+    background-color: #fff;
+    margin-top: 1%;
+    margin-left: 1%;
+    cursor: pointer;
+}
+#Buttons:hover{
+    background-color: #4D4D4D;
+}
+
+#zz{
+  margin-right: 1%;
+  float: left;
+  margin-bottom: 10px;
+}
