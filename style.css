@@ -149,20 +149,24 @@
     padding-top: 2%;
 
 }
-#LeftIcon{
+
+.LeftIcon{
     color: white;
     font-size: 26px;
     margin-left: 1%;
     cursor: pointer;
     
 }
-#LeftTitle{
+.LeftTitle{
     font-family: Roboto, Arial, sans-serif;
     font-size: 0.7rem;
     white-space: nowrap;
     font-weight: 400;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+.HomeIcon{
+    font-size: 26px;
 }
 #Line{
     size: 1px;
@@ -181,7 +185,7 @@
     background-color: #181818;
     float: left;
 }
-#Buttons{
+.Buttons{
     padding: 10px 30px;
     border-radius: 30px 30px;
     font-family: Roboto, Arial, sans-serif;
@@ -191,11 +195,11 @@
     margin-left: 1%;
     cursor: pointer;
 }
-#Buttons:hover{
+.Buttons:hover{
     background-color: #4D4D4D;
 }
 
-#zz{
+.video{
   margin-right: 1%;
   float: left;
   margin-bottom: 10px;
